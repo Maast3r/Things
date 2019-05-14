@@ -1,0 +1,141 @@
+/* GLOBAL */
+@page {
+  margin: 20px 0 0 0;
+}
+
+html {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+}
+
+ul {
+  list-style-type: square;
+  padding-inline-start: 15px;
+}
+
+header, footer {
+  display: none
+}
+
+
+/* HEADER */
+.header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.address {
+}
+
+.phone {
+}
+
+.email {
+}
+
+.link {
+}
+
+.header-divider {
+  border: 2px solid black;
+  border-radius: 40%;
+}
+
+
+/* SECTION */
+.section {
+  margin-top: 10px;
+}
+
+.section-header {
+  font-size: 16px;
+}
+
+.section-divider {
+  border: 1px solid black;
+}
+
+
+/* ACCOMPLISHMENTS */
+.accomplishments-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.accomplishments-wrapper > div {
+  flex-basis: 45%;
+  flex-grow: 0;
+}
+
+.accomplishment-group-name {
+  font-size: 12px;
+  border-bottom: 1px dotted black;
+  margin-bottom: 5px;
+}
+
+.accomplishment-name {
+  font-weight: bold;
+}
+
+
+/* SKILLS */
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  font-size: 12px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/* EXPERIENCE */
+.experience-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*
+.name-duration-wrapper {
+  display: inline-flex;
+}
+*/
+.name-duration-wrapper > span:nth-child(2) {
+  margin-left: 5px;
+}
+
+.experience-name {
+  font-size: 11px;
+}
+
+/* PROJECTS */
+.project-name {
+  font-size: 12px;
+}
+
+
+/* EDUCATION */
+.education-degree {
+  font-size: 14px;
+  font-weight: bold;
+}
